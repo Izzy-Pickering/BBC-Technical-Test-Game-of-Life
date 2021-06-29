@@ -51,7 +51,7 @@ def main():
             print("This organim is dead.\n")
             break 
 
-# Figure out the next stage and print it in the terminal
+
 def nextStateCreator(initialState):
     for i in range(len(initialState)):
         newRow = []
